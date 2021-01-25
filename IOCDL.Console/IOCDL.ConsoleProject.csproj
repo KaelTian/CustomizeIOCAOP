@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IOCDL.BLL\IOCDL.BLL.csproj" />
+    <ProjectReference Include="..\IOCDL.DAL\IOCDL.DAL.csproj" />
+    <ProjectReference Include="..\IOCDL.Framework\IOCDL.Framework.csproj" />
+    <ProjectReference Include="..\IOCDL.IBLL\IOCDL.IBLL.csproj" />
+    <ProjectReference Include="..\IOCDL.IDAL\IOCDL.IDAL.csproj" />
+    <ProjectReference Include="..\IOCDL.Interface\IOCDL.Interface.csproj" />
+    <ProjectReference Include="..\IOCDL.service\IOCDL.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
